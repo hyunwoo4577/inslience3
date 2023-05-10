@@ -1,0 +1,36 @@
+body,html{overflow-x: hidden;}
+header {width: 1920px;display:flex; flex-flow: row nowrap; justify-content: space-between; align-items: center; position: fixed;z-index:999; background: #fff;left:0; top:0;
+    h1 {a{img{width:400px;margin-top:3px;}}
+        a{}
+    }
+    nav{
+        a {margin-right: 40px;}
+    }
+}
+aside{height: 100vh;margin-top: 50px; padding:20px 0 20px 30px;display:flex; flex-flow: column wrap; justify-content: space-between;position: fixed;
+    .menu{display: flex; flex-flow:column nowrap;width:200px;}
+    a{font-size: 2rem; padding:30px 15px;border-bottom: 1px solid #d2d2d2;}
+    }
+main{width: 1600px; margin-left:400px;margin-top:51px;
+    .product{width: 1400px;
+        .card{display: flex; flex-flow:row nowrap; justify-content: space-between;margin-bottom:100px;
+            li{width:33%;
+                a{
+                    img{width: 100%;}}
+            }
+        }
+    }
+    .load {width:1400px;text-align: center;}
+    .load a {padding:10px 20px; border: 1px solid #000;}
+}
+footer {width: 1920px; display: flex; flex-flow: row nowrap;padding:600px 100px 0 100px;}
+footer *{margin-right: 70px;} 
+footer .sns {display: flex; flex-flow: column nowrap;}
+footer .sns a {margin-bottom: 30px;}
+footer address {}
+footer address p {margin-bottom: 30px;}
+footer .company {}
+footer .company p {}
+footer .logo {position: relative; left:200px; top:250px;}
+footer .logo p {}
+footer .logo h2 {margin-right: 50px;}

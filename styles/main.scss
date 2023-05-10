@@ -1,0 +1,24 @@
+body,html{overflow-x:hidden;}
+header {display:flex; flex-flow: row nowrap; justify-content: space-between; align-items: center;
+    h1 {a{img{width:400px;margin-top:3px;}}
+        a{}
+    }
+    nav{
+        a {margin-right: 40px;}
+    }
+}
+.pg1_bg {width:100vw;height:100vh;overflow:hidden;
+    video{width: 100%;}
+    .mute {width:40px;position:absolute;top:70px;left:10px; 
+        a {img{width: 100%;}}}
+    .mouse{width: 80px;position: absolute;bottom:10px;left:50%;
+        a {img{width: 100%;}}}
+    .sns{display:flex; flex-flow:column wrap;position:absolute;top:70px; right:15px;a{margin-bottom: 15px;img{width:30px;}}}}
+.pg2{display: flex; flex-flow: row nowrap;width:100vw;height:100vh;
+    aside{padding:30px 0 20px 20px;display:flex; flex-flow: column wrap; justify-content: space-between;
+        .menu{display: flex; flex-flow:column nowrap;}
+        a{font-size: 2rem; padding:30px;border-bottom: 1px solid #d2d2d2;}
+            p{img{width:200px;}}}
+    .pg2_photo{position: relative;right:-190px;
+        p:first-child{height:100vh;overflow:hidden;img{}}
+        p:last-child{position: absolute;top:5px;right:15px;}}}
